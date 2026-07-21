@@ -83,6 +83,37 @@ section {
 }
 
 
+.level {
+    height: 100%;
+    background: #38bdf8;
+}
+
+
+.linux {
+    width: 95%;
+}
+
+.docker {
+    width: 85%;
+}
+
+.ansible {
+    width: 85%;
+}
+
+.postgres {
+    width: 75%;
+}
+
+.nginx {
+    width: 90%;
+}
+
+.monitoring {
+    width: 70%;
+}
+
+
 .progress {
     height: 100%;
     background: #38bdf8;
@@ -105,45 +136,30 @@ section {
 
 
 .button {
-
     display: inline-block;
-
     padding: 12px 25px;
-
     background: #38bdf8;
-
     color: #0f172a;
-
     border-radius: 6px;
-
     font-weight: bold;
-
 }
 
 
 footer {
-
     text-align: center;
-
     padding: 30px;
-
     border-top: 1px solid #334155;
-
     margin-top: 40px;
-
 }
 
 
 
 @media(max-width:700px) {
-
     h1 {
         font-size: 32px;
     }
 
-
     .container {
         width: 95%;
     }
-
 }
